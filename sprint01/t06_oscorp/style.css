@@ -1,0 +1,203 @@
+.top-panel {
+    background-color: black;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.under-panel {
+    position: relative;
+    background-color: rgb(208, 208, 208);
+    top: -21px;
+    margin-left: -10px;
+}
+.text-name {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    top: 25px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+.hr {
+    position: relative;
+    top: 12px;
+}
+.text-about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 400px;
+    bottom: 20px;
+    color: white;
+}
+.text-service {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 450px;
+    bottom: 20px;
+    color: white;
+}
+.text-contact {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 20px;
+    color: white;
+}
+.text-search {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 550px;
+    bottom: 20px;
+    color: white;
+}
+.search {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 550px;
+    bottom: 25px;
+    border-radius: 20px;
+}
+.text-number {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+    color: white;
+}
+.h1-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    padding: 10px;
+    left: 20px;
+}
+.text-filters {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    font-size: 20px;
+}
+.checkbox {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+.text-filters {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 15px;
+}
+.image {
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+    width: 300px;
+    height: 300px;
+}
+.image1 {
+    position: relative;
+    bottom: 400px;
+    left: 450px;
+    width: 250px;
+    height: 300px;
+}
+.image-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 470px;
+    font-size: 20px;
+    left: 650px;
+}
+.image-text0 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    font-weight: bold;
+    bottom: 470px;
+    font-size: 20px;
+    left: 650px;
+}
+.image-text2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 470px;
+    color: red;
+    font-size: 15px;
+    left: 650px;
+}
+.image-text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 600px;
+    font-size: 20px;
+    left: 650px;
+}
+.image-text11 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    font-weight: bold;
+    bottom: 600px;
+    font-size: 20px;
+    left: 650px;
+}
+.image-text22 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 600px;
+    color: green;
+    font-size: 15px;
+    left: 650px;
+}
+.buy1 {
+    position: relative;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    left: 650px;
+    bottom: 450px;
+}
+.buy2 {
+    position: relative;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    left: 650px;
+    bottom: 600px;
+    font-size: 20px;
+}
+.image-buy {
+    position: relative;
+    bottom: 200px;
+    left: 600px;
+    width: 300px;
+    height: 300px;
+}
+.image-text-buy {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 250px;
+    font-size: 15px;
+    left: 650px;
+}
+.image-text1-buy {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 250px;
+    font-size: 15px;
+    left: 650px;
+}
+.image-text2-buy {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 250px;
+    color: green;
+    font-size: 15px;
+    left: 650px;
+}
+.buy-buy {
+    position: relative;
+    bottom: 250px;
+    left: 650px;
+    width: 100px;
+    height: 40px;
+}

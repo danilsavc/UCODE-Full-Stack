@@ -1,0 +1,7 @@
+tr {
+    display: flex;
+}
+.thanos:hover~table tr:nth-child(odd) td:nth-child(odd),
+.thanos:hover~table tr:nth-child(even) td:nth-child(even) {
+    opacity: 0;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Superhero Form</h1>
+        <div class="container" id="result"></div>
+        <fieldset>
+            <form action="/" method="post">
+                <fieldset>
+                    <legend>About the Superhero</legend>
+                    <span>Real Name</span>
+                    <input autofocus type="text" name="name" maxlength="16" placeholder="Superhero real name" required>
+                    <span>Email</span>
+                    <input type="email" name="email" id="email" placeholder="Tell your e-mail" style="width:300px;" required>
+                    <span>Age</span>
+                    <input type="number" name="age" id="age" required max="9999" min="1">
+                    <span>About</span>
+                    <textarea name="text" cols="70" rows="5" maxlength="500" placeholder="information about the superhero, max 500 symbols" required></textarea> <br><br>
+                    <span>Photo</span>
+                    <input type="file" name="photo" id="photo" required>
+                  </fieldset>
+                  <button type="reset">Clear</button>
+                <button type="submit">Send</button>
+            </form>
+        </fieldset>
+        <script src="script.js"></script>
+    </body>
+</html>

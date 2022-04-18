@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t00</title>
+    
+</head>
+<body>
+    <h1>Session for new</h1>
+
+    <form action="/auth" method="POST">
+        <fieldset>
+            <fieldset>
+                <legend>About hero</legend>
+                <div>
+                    <span for="name">Real Name</span>
+                    <input autofocus name="name" type="text" size="15" placeholder="Tony Stark" required>
+                    <span id="alias">Current alias</span>
+                    <input type="text" name="alias" size="15" placeholder="Superhero alias" required>
+                    <span id="age">Age</span>
+                    <input type="number" name="age" min="1" max="999" size="5" required><br><br>
+                    <span id="about">About</span>
+                    <textarea name="text" name="about" id="About" cols="60" rows="5" required></textarea><br><br>
+                    <span id="photo">Photo:</span>
+                    <input type="file" name="photo" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Powers</legend>
+                <div>
+                    <span>Strength</span>
+                    <input type="checkbox" value="1" name="pwr_strength" id="powers_str">
+                    <span>Speed</span>
+                    <input type="checkbox" value="1" name="pwr_speed" id="spd">
+                    <span>Intelligence</span>
+                    <input type="checkbox" value="1" name="pwr_intelligance" id="powers_int">
+                    <span>Teleportation</span>
+                    <input type="checkbox" value="1" name="teleportation" id="tel">
+                    <span>Fly</span>
+                    <input type="checkbox" value="1" name="pwr_fly" id="fly">
+                    <span>Another</span>
+                    <input type="checkbox" value="1" name="pwr_another" id="powers_another"><br><br>
+                    <span>Level of control</span>
+                    <input type="range" id="volume" name="volume" min="0" max="10" step="1" value="1" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Publicity</legend>
+                <div>
+                    <span>UNKNOWN</span>
+                    <input type="radio" id="publicity_unk">
+                    <span>LIKE A GHOST</span>
+                    <input type="radio" id="publicity_lag">
+                    <span>I AM IN COMICS</span>
+                    <input type="radio" id="publicity_iaic">
+                    <span>I HAVE FUN CLUB</span>
+                    <input type="radio" id="publicity_ihfc">
+                    <span>SUPERSTAR</span>
+                    <input type="radio" id="publicity_sup">
+                </div>
+            </fieldset>
+            <br>
+            <button id="reset" type="reset">clear</button>
+            <button id="submit" type="submit">send</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+@keyframes shake {
+    100% {
+        transform: translateX(calc(100vw - 150px));
+    }
+}
+.radius {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 500%;
+    position: relative;
+    background-color: blue;
+    display: inline-block;
+    margin: 5%;
+    animation: shake 2s ease-out alternate infinite;
+    transition: 3s cubic-bezier(.17,.67,.83,.67);
+    transition-property: background-color;
+}
+.radius:hover{
+    background-color: brown;
+}

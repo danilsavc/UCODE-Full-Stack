@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato', sans-serif;
+}
+
+body div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    text-align: center;
+    transition: all .2s cubic-bezier(.17,.67,.83,.67);
+}
+
+body div div:hover {
+    box-shadow: -1px 1px 11px 4px gray;
+}
+.data {
+    color: white;
+    background: rgb(87, 148, 178);
+    width: 100%;
+}
+.temp {
+    font-size: 2em;
+}

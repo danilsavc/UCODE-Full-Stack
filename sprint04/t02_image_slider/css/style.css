@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+}
+
+#images {
+    width: 600px;
+    height: 500px;
+}
+img {
+    width: 40px;
+    height: 40px; 
+}
+#next, #prev{
+    border: 0;
+    width: 50px;
+    height: 500px;
+}
+
+#next:hover, #prev:hover{
+    background-color: rgb(211, 210, 210);
+}

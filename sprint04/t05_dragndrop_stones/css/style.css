@@ -1,0 +1,46 @@
+
+ 
+.stones__item {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    border: 4px dashed rgb(82, 82, 82);
+    cursor: pointer;
+}
+ 
+.stones__item.active{
+    border-color: transparent;
+    cursor: grab;
+}
+ 
+.stones__item--blue {
+    top: 10px;
+    transform: rotate(45deg);
+    background: rgb(26, 73, 112);
+}
+.stones__item--green {
+    top: 20px;
+    transform: rotate(45deg);
+    background: rgb(21, 129, 21);
+}
+.stones__item--yellow {
+    top: 30px;
+    transform: rotate(45deg);
+    background: rgb(211, 163, 8);
+}
+.stones__item--red {
+    top: 40px;
+    transform: rotate(45deg);
+    background: rgb(255, 0, 0);
+}
+.stones__item--pink {
+    top: 50px;
+    transform: rotate(45deg);
+    background: rgb(171, 112, 122);
+}
+.stones__item--purple {
+    top: 60px;
+    transform: rotate(45deg);
+    background: rgb(255, 0, 255);
+}

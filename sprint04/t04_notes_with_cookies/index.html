@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Notes with cookies</title>
+        <meta name="description" content="t04. Notes with cookies">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="buttons">
+              <input type="reset" onclick = "addCookies()" class = "AddToCookies" class="add"  value="Add to storage">
+              <input type="submit" onclick = "ClearCookies()"  class = "ClearCookies" class="clear" value="Clear storage">
+            </div>
+        
+            <div class="textarea">
+                <p class="text-input">Text input</p>
+              <textarea cols="70" rows="20" maxlength="500" id = "inputText" class="text-color"></textarea>
+            </div>
+        
+            <div class="archive">
+              <span class="archive_text">Notes archive:</span>
+              <div class="output_text"></div>
+            </div>
+          </div>
+        
+
+        <script src="js/script.js"> </script>
+    </body>
+</html>
+

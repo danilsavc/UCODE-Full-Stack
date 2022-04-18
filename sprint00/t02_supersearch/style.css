@@ -1,0 +1,21 @@
+div {
+    width: 100%;
+    display: inline-flex;
+    
+}
+input {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 2em;
+    color: green;
+}
+button {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 2em;
+    color: green;   
+}
+input:hover, button:hover{
+    color: red;;
+}

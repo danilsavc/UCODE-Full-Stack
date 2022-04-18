@@ -1,0 +1,106 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main_ul > li {
+    display:inline-block;
+    vertical-align: top;
+    margin-left: -4px;
+    position: relative;   
+}
+.main_ul > ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+ul > .superheroes > .ul_superheroes{
+    position: absolute;
+    right: 0px;
+    top: 75px;
+    display: none;
+}
+.villains > .ul_villains {
+    top: 79px;
+    right: -60px;
+}
+.main_ul > .superheroes > .ul_superheroes {
+    top: 79px;
+    right: -60px;
+}
+.villains > .ul_villains > .thanos > .ul_thanos {
+    top:50px;
+    right: -191px;
+}
+.villains > .ul_villains > .mysterio > .ul_mysterio {
+    top:90px;
+    right: -216px;
+}
+.superheroes > .ul_superheroes > .tony > .ul_tony {
+    top:58px;
+    right: -210px;
+}
+.superheroes > .ul_superheroes > .widow > .ul_widow {
+    top:110px;
+    right: -260px;
+}
+ul {
+    list-style: none;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkred;
+    font-size: 50px;
+}
+ul li a{
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li ul{
+    position: absolute;
+    right: -31px;
+    top: 75px;
+    display: none;
+}
+
+.villains > ul{
+    display:none;
+}
+.villains:hover > ul{
+    display: block;
+}
+.superheroes > ul {
+    display:none;
+}
+.superheroes:hover > ul {
+    display: block;
+}
+.thanos > ul {
+    display:none;
+}
+.thanos:hover > ul {
+    display: block;
+}
+.mysterio > ul {
+    display:none;
+}
+.mysterio:hover > ul {
+    display: block;
+}
+.tony > ul {
+    display:none;
+}
+.tony:hover > ul {
+    display: block;
+}
+.widow > ul {
+    display:none;
+}
+.widow:hover> ul {
+    display: block;
+}
+

@@ -1,0 +1,27 @@
+.box .box {
+    width: auto;
+}
+
+body {
+    background-color: rgb(199, 199, 255);
+}
+
+.key {
+    color: #ff0015;
+}
+
+button {
+    cursor: pointer;
+}
+
+.wrapper {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 15px;
+    border: 1px solid grey;
+    width: 100%;
+}

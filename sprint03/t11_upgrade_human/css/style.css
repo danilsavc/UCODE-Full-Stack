@@ -1,0 +1,23 @@
+body {
+    background-color:cornsilk;
+}
+.info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info1, #age, #lastName, #firstName, #gender {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#feed, #sleep, #fly, #fight, #hero {
+    border: 0;
+    font-size: 25px;
+    background-color:cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#feed:hover, #sleep:hover, #fly:hover, #fight:hover, #hero:hover {
+    border: 0;
+    border-radius: 10px;
+    background-color:rgb(250, 236, 179);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="calculator">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div id="history">0</div>
+        <div class="output"><span id="output-text">0</span></div>
+        <div class="buttons">
+            <div onclick="InputToOutput('C')" class="butt silver"><span>C</span></div>
+            <div onclick="InputToOutput('+/-')" class="butt silver"><span>+/-</span></div>
+            <div onclick="InputToOutput('%')" class="butt silver"><span>%</span></div>
+            <div onclick="InputToOutput('/')" class="butt yellow"><span>&#247;</span></div>
+            <div onclick="InputToOutput('1')" class="butt" id="once" value="1"><span>1</span></div>
+            <div onclick="InputToOutput('2')" class="butt"><span>2</span></div>
+            <div onclick="InputToOutput('3')" class="butt"><span>3</span></div>
+            <div onclick="InputToOutput('*')" class="butt yellow"><span>&#215;</span></div>
+            <div onclick="InputToOutput('4')" class="butt"><span>4</span></div>
+            <div onclick="InputToOutput('5')" class="butt"><span>5</span></div>
+            <div onclick="InputToOutput('6')" class="butt"><span>6</span></div>
+            <div onclick="InputToOutput('-')" class="butt yellow"><span>-</span></div>
+            <div onclick="InputToOutput('7')" class="butt"><span>7</span></div>
+            <div onclick="InputToOutput('8')" class="butt"><span>8</span></div>
+            <div onclick="InputToOutput('9')" class="butt"><span>9</span></div>
+            <div onclick="InputToOutput('+')" class="butt yellow"><span>+</span></div>
+            <div onclick="InputToOutput('.')" class="butt"><span>.</span></div>
+            <div onclick="InputToOutput('0')" class="butt"><span>0</span></div>
+            <div onclick="InputToOutput('=')" class="butt yellow" id="peer"><span>=</span></div>
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
