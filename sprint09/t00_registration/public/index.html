@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Форма регистрации</title>
+</head>
+
+<body>
+    <form method="post">
+        <main>
+            <div class="register-form-container">
+                <h1 class="form-title">Sign In</h1>
+                <div class="form-fields">
+                    <div class="form-field">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-field">
+                        <input type="text" name="login" placeholder="Login" required>
+                    </div>
+                    <div class="form-field">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-field">
+                        <input type="password" name="password" placeholder="Password" id="password" required>
+                    </div>
+                    <div class="form-field">
+                        <input type="password" name="confirm_password" placeholder="Confirm Password" id="confirm" required>
+                    </div>
+                </div>
+                <div class="form-buttons">
+                    <button class="button" type="submit">Sign In</button>
+                </div>
+            </div>
+        </main>
+    </form>
+    <script>
+        document.querySelector("button").addEventListener('click', (e) => validate(e));
+        function validate(e) {
+            let password = document.querySelector('#password');
+            let confirm = document.querySelector('#confirm');
+            console.log(password.value);
+            if(password.value !== confirm.value) {
+                e.preventDefault();
+                confirm.insertAdjacentHTML("afterend", "<div class='message error' id='error'>Passwords does not match</div>");
+                setTimeout(() => {
+                document.querySelector('.error').outerHTML = '';
+            },2000);
+          }
+        }
+      </script>
+</body>
+
+</html>
